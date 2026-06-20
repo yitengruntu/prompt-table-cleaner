@@ -1,0 +1,6 @@
+Tool,Use case,Messy input pain
+ChatGPT,Strategy review,Copied tables lose structure
+Codex,Codebase audit,CSV snippets need Markdown context
+Claude,Document analysis,Dashboard exports include whitespace
+NotebookLM,Research notes,Rows need JSON objects
+

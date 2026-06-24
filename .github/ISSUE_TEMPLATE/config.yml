@@ -1,0 +1,6 @@
+blank_issues_enabled: true
+contact_links:
+  - name: Ask for a workflow
+    url: https://github.com/yitengruntu/prompt-table-cleaner/issues/new?template=workflow-request.yml
+    about: Request a Chrome extension, CLI, clipboard tool, or agent integration.
+

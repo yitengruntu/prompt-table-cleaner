@@ -1,39 +1,43 @@
 # Prompt Table Cleaner
 
-Clean copied web tables into prompt-ready Markdown and JSON.
+Paste messy table text. Get clean Markdown and JSON for AI prompts.
 
-This is a tiny local demo for AI-heavy users who copy tables from docs, dashboards, search results, admin panels, or CSV exports and need structured context that can be pasted into ChatGPT, Codex, Claude, or another agent.
+![Prompt Table Cleaner preview](assets/preview.svg)
 
-## Try The Demo
+Prompt Table Cleaner is a static browser demo for people who copy tables from dashboards, docs, search results, CSV exports, or admin screens before pasting them into ChatGPT, Codex, Claude, or another agent.
 
-Open:
+## Try It
 
-`demo/index.html`
+- Local demo: open `demo/index.html`
+- GitHub Pages-ready demo: `docs/index.html`
+- Sample input: `data/sample-table.csv`
 
-Paste a CSV, TSV, or copied table-like text. The demo normalizes empty cells, trims whitespace, and produces:
+Expected Pages URL after enabling GitHub Pages from `main /docs`:
+
+`https://yitengruntu.github.io/prompt-table-cleaner/`
+
+## What It Produces
 
 - Markdown table
 - JSON rows
-- a compact summary line for prompts
+- compact prompt summary
 
-## What This Tests
+## The Demand Test
 
-The demand question is not whether table conversion is possible. It is whether people who work with AI tools care enough to star, clone, open an issue, or ask for a browser extension, CLI, or clipboard workflow.
+This repo is a 72-hour interest probe, not a finished product.
 
-## What It Is Not
-
-This v0.1 package is not a browser extension, SaaS product, paid tool, or full spreadsheet parser. It is a GitHub interest probe with a working static demo.
-
-## Validation Signal
-
-Continue only if someone asks for one of these:
+Open an issue if you want a real workflow:
 
 - Chrome extension
-- clipboard watcher
+- clipboard tool
 - CLI command
-- HTML table extraction from a live page
-- better CSV parsing for messy exports
-- integration with Codex or another coding agent
+- live HTML table extraction
+- Codex or agent integration
 
-No concrete workflow request means this stays a killed probe.
+Those requests decide whether this becomes a real utility.
 
+## Run The Check
+
+```bash
+npm run validate
+```

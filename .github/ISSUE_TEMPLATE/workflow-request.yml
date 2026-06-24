@@ -1,0 +1,35 @@
+name: Workflow request
+description: Ask for a real Prompt Table Cleaner workflow.
+title: "Workflow request: "
+labels:
+  - workflow-request
+body:
+  - type: dropdown
+    id: workflow
+    attributes:
+      label: Workflow
+      description: What would make this useful enough to use repeatedly?
+      options:
+        - Chrome extension
+        - Clipboard tool
+        - CLI command
+        - HTML table extraction
+        - Codex or agent integration
+        - Other
+    validations:
+      required: true
+  - type: textarea
+    id: source
+    attributes:
+      label: Where does your table usually come from?
+      placeholder: GA4 export, admin screen, copied docs table, CSV file, search result table
+    validations:
+      required: true
+  - type: textarea
+    id: output
+    attributes:
+      label: What output do you need?
+      placeholder: Markdown table, JSON rows, CSV cleanup, prompt summary, schema, pasted clipboard format
+    validations:
+      required: true
+

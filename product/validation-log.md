@@ -23,3 +23,22 @@ This read is a distribution failure, not a product-demand verdict. There is no e
 Next action:
 
 Run a second distribution test with a narrower, use-case-first angle: cleaning copied web or dashboard tables before pasting into ChatGPT, Claude, or Codex.
+
+## 2026-06-27 ClaudeAI Attempt
+
+Channel:
+
+- `r/ClaudeAI` feed post.
+
+Observed result:
+
+- Main feed submission was blocked by subreddit karma requirements for Showcase posts.
+- Moderator response routed the project to the Built with Claude Project Showcase Megathread.
+
+Interpretation:
+
+This is another channel-access failure rather than a demand signal. The next valid test is a comment in the approved Megathread, not another standalone `r/ClaudeAI` post.
+
+Next action:
+
+Submit a concise Megathread comment that asks for workflow feedback and links to the demo and repo.

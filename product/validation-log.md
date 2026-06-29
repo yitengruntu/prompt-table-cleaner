@@ -60,3 +60,30 @@ This is now a valid but low-volume distribution test. Do not add features until 
 Next action:
 
 Read results 24 hours after the comment. If there are no comments and no GitHub activity, treat Reddit as an ineffective channel for this probe and move to the next distribution source or the next repo.
+
+## 2026-06-29 GitHub Traffic Read
+
+Source:
+
+- Owner-provided GitHub Insights -> Traffic screenshot.
+- Public GitHub API check for repo counters.
+
+Observed signals:
+
+- Clones in last 14 days: 47
+- Unique cloners in last 14 days: 23
+- Total views in last 14 days: 5
+- Unique visitors in last 14 days: 2
+- Stars: 0
+- Forks: 0
+- Issues: 0
+
+Interpretation:
+
+The high clone count with very low views is ambiguous. It may include bots, scanners, GitHub ecosystem crawlers, or direct clone activity from someone who saw the repo link. It is not a strong human-demand signal because there are no stars, issues, forks, comments, or workflow requests.
+
+This does show that the repo is reachable and being cloned, but it does not justify building more product features yet.
+
+Next action:
+
+Check `Referring sites` and `Popular content` from GitHub Traffic. If they are empty or only GitHub/self traffic, treat this as non-decision-grade. If there is a real external referrer, run one more targeted distribution test there. Otherwise move to the next probe rather than continue development on Prompt Table Cleaner.

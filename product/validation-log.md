@@ -87,3 +87,27 @@ This does show that the repo is reachable and being cloned, but it does not just
 Next action:
 
 Check `Referring sites` and `Popular content` from GitHub Traffic. If they are empty or only GitHub/self traffic, treat this as non-decision-grade. If there is a real external referrer, run one more targeted distribution test there. Otherwise move to the next probe rather than continue development on Prompt Table Cleaner.
+
+## 2026-06-29 Referrer Read
+
+Source:
+
+- Owner-provided GitHub Insights -> Traffic screenshot for `Referring sites` and `Popular content`.
+
+Observed signals:
+
+- Referring sites: `github.com`, 1 view, 1 unique visitor
+- Popular content: `Overview`, 4 views, 2 unique visitors
+- No visible `reddit.com` referrer
+
+Interpretation:
+
+The Reddit attempts did not create measurable GitHub referral traffic. The clone spike remains non-decision-grade because it is not tied to a real external referrer or a human interest action.
+
+Decision:
+
+Do not build more Prompt Table Cleaner features from this data. Treat the current Reddit channel test as failed for this probe.
+
+Next action:
+
+Move to the next probe or find a more targeted GitHub-native distribution source. Prompt Table Cleaner should stay parked unless a future direct user request, issue, star cluster, or credible referrer appears.
